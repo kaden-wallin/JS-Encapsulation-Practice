@@ -12,7 +12,7 @@ async function main() {
     selectSandwich(items[0])
 
     // Display the ingredients we fetched
-    renderIngredientList();
+    ingredientList.render();
 
     // Display the sandwiches we fetched
     renderCart();
